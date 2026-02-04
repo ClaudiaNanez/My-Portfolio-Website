@@ -1,0 +1,35 @@
+---
+title: "Sustainable Design Piano Life Cycle Analysis"
+page-layout: full
+---
+
+## Overview
+
+::: {.project-overview}
+::: {.project-text}
+Ever since I was little, music has been one of my biggest passions. I have been playing classical piano for 17 years and 
+
+**Duration:** March - May 2024
+**Team Size:** Solo Project 
+:::
+
+
+## Process
+
+1. Researched the differences between electric and  
+- Achievement 2 with detailed explanation
+- Achievement 3 with detailed explanation
+
+
+## Resources & Links
+
+**View the full project report:** [Download PDF](Files/Piano LCA Sustainable Design.pdf){.pdf-link target="_blank"}
+
+**Embedded PDF Viewer:**
+
+<iframe src="Files/Piano LCA Sustainable Design.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+
+
+---
+
+[← Back to Portfolio](index.html#professional-experience){.back-button}

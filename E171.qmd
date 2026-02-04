@@ -1,0 +1,37 @@
+---
+title: "Bladed Disk Simulation - E171 Final Project"
+page-layout: full
+---
+
+## Overview
+
+::: {.project-overview}
+::: {.project-text}
+This is a detailed description of your project or role. You can write as much as you want here about what you did, the challenges you faced, and the solutions you created.
+
+**Duration:** October 2023 - December 2023 
+**Team Size:** 2 people  
+
+:::
+
+## Technical Details
+
+Here you can explain the technical aspects of your project.
+
+### Technologies Used
+- Technology 1
+- Technology 2
+- Technology 3
+
+## Final Report
+
+**View the final project report:** [Download PDF](files/E171Report.pdf){.pdf-link target="_blank"}
+
+**Embedded PDF Viewer:**
+
+<iframe src="files/E171Report.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+
+
+---
+
+[← Back to Portfolio](index.html#professional-experience){.back-button}

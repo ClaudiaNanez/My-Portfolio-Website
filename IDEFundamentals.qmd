@@ -1,0 +1,63 @@
+---
+title: "Somnia Collection - IDE Fundamentals Final Project"
+page-layout: full
+---
+
+## Overview
+
+::: {.project-overview}
+::: {.project-text}
+IDE fundamentals is the first module that students in the IDE program complete. It aims to 
+
+**Duration:** September - October 2025 
+**Team Size:** 5 people  
+**Role:** Team Lead
+:::
+
+::: {.project-image}
+![](images/project1-main.jpg)
+:::
+:::
+
+## Key Achievements
+
+- Achievement 1 with detailed explanation
+- Achievement 2 with detailed explanation
+- Achievement 3 with detailed explanation
+
+## Project Gallery
+
+::: {.image-gallery}
+![Project Screenshot 1](images/project1-photo1.jpg)
+
+![Project Screenshot 2](images/project1-photo2.jpg)
+
+![Project Screenshot 3](images/project1-photo3.jpg)
+:::
+
+## Technical Details
+
+Here you can explain the technical aspects of your project.
+
+### Technologies Used
+- Technology 1
+- Technology 2
+- Technology 3
+
+## Resources & Links
+
+**View the full project report:** [Download PDF](files/IDEFundamentalsFinalPresentation.pdf.pdf){.pdf-link target="_blank"}
+
+**Embedded PDF Viewer:**
+
+<iframe src="files/IDEFundamentalsFinalPresentation.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+
+## Video Demo
+
+Final Video Ad 
+
+<iframe width="100%" height="400" src="https://youtu.be/JCyGiEnzXGM?si=n4SCNYnD19cvy38g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 5px;"></iframe>
+
+---
+
+[← Back to Portfolio](index.html#professional-experience){.back-button}

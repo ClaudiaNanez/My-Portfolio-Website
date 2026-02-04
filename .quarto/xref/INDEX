@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "b2b77b73"
+  },
+  "about.qmd": {
+    "about.html": "f65681f0"
+  },
+  "motiv.qmd": {
+    "motiv.html": "ec3dba56"
+  },
+  "LAIR.qmd": {
+    "LAIR.html": "c6c9e9d9"
+  },
+  "TP.qmd": {
+    "TP.html": "b39c57e3"
+  },
+  "CPS.qmd": {
+    "CPS.html": "11e5c3eb"
+  },
+  "PianoLCA.qmd": {
+    "PianoLCA.html": "786d8afd"
+  },
+  "IDEFundamentals.qmd": {
+    "IDEFundamentals.html": "033eca1f"
+  },
+  "Amazon126.qmd": {
+    "Amazon126.html": "87b075c7"
+  },
+  "E80.qmd": {
+    "E80.html": "96cb6a29"
+  },
+  "E171.qmd": {
+    "E171.html": "5c105308"
+  }
+}

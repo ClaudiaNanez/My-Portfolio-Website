@@ -1,0 +1,31 @@
+project:
+  type: website
+  resources:
+    - images
+
+website:
+  navbar:
+    right:
+      - text: Home
+        href: "#home"
+      - text: About
+        href: "#about"
+      - text: Education 
+        href: "#education"  
+      - text: Professional Experience
+        href: "#professional-experience"
+      - text: Projects
+        href: "#projects"
+      - text: Contact
+        href: "#contact"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+
+
+

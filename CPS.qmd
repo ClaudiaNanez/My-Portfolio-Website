@@ -1,0 +1,64 @@
+---
+title: "Door Handle Hero - CPS Final Project"
+page-layout: full
+---
+
+## Overview
+
+::: {.project-overview}
+::: {.project-text}
+Cyber Physical Systems is the second module in the IDE program. 
+
+**Duration:** October 2025 - November 2025
+**Team Size:** 3 people  
+**Role:** Technical Lead
+:::
+
+::: {.project-image}
+![](images/project1-main.jpg)
+:::
+:::
+
+## Key Achievements
+
+- Achievement 1 with detailed explanation
+- Achievement 2 with detailed explanation
+- Achievement 3 with detailed explanation
+
+## Project Gallery
+
+::: {.image-gallery}
+![Project Screenshot 1](images/project1-photo1.jpg)
+
+![Project Screenshot 2](images/project1-photo2.jpg)
+
+![Project Screenshot 3](images/project1-photo3.jpg)
+:::
+
+## Technical Details
+
+Here you can explain the technical aspects of your project.
+
+### Technologies Used
+- Technology 1
+- Technology 2
+- Technology 3
+
+## Resources & Links
+
+**View the full project report:** [Download PDF](files/project1-report.pdf){.pdf-link target="_blank"}
+
+**GitHub Repository**
+- [GitHub Repository](https://github.com/kawaiistar27/CPS-T6.git){target="_blank"}
+
+
+## Video Demo 
+
+
+<video width="75%" autoplay muted loop playsinline>
+  <source src="files/cps.mp4" type="video/mp4">
+</video>
+
+---
+
+[← Back to Portfolio](index.html#professional-experience){.back-button}

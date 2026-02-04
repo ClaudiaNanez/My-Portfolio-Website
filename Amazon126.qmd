@@ -1,0 +1,39 @@
+---
+title: "Amazon Lab126 Clinic Project"
+page-layout: full
+---
+
+## Overview
+
+::: {.project-overview}
+::: {.project-text}
+The Harvey Mudd College clinic program engages juniors and seniors in solving real-world, technical problems for companies and organizations. I was the team lead for Amazon Lab126's clinic project for the 2023-2024 academic school year. Throughout the year, I lead a team of four students in a year long project to meet the requirements of the liaisons and clients. I utilized project management tools and developed team dynamics to maximize outcome performance. My team successfully simulated acoustic environments in the software tool Unity to enhance the performance of the Amazon Echo. 
+
+**Duration:** August 2023 - May 2024
+**Team Size:** 5 people  
+**Role:** Team Lead
+
+:::
+
+## Technical Details
+- 
+
+
+### Technologies Used
+- Technology 1
+- Technology 2
+- Technology 3
+
+
+## Video Demo 
+
+Video demonstration of 
+<video width="100%" autoplay muted loop playsinline>
+  <source src="files/lab126.mp4" type="video/mp4">
+</video>
+
+
+---
+
+[← Back to Portfolio](index.html#professional-experience){.back-button}
+
