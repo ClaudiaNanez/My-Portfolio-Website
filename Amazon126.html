@@ -152,13 +152,13 @@ ul.task-list li input[type="checkbox"] {
 <strong>Role:</strong> Team Lead</p>
 </div>
 <section id="technical-details" class="level2">
-<h2 class="anchored" data-anchor-id="technical-details">## Technical Details</h2>
-<section id="technologies-used" class="level3">
-<h3 class="anchored" data-anchor-id="technologies-used">Technologies Used</h3>
+<h2 class="anchored" data-anchor-id="technical-details">Technical Details</h2>
+<section id="software-used" class="level3">
+<h3 class="anchored" data-anchor-id="software-used">Software Used</h3>
 <ul>
-<li>Technology 1</li>
-<li>Technology 2</li>
-<li>Technology 3</li>
+<li>Python</li>
+<li>Unity</li>
+<li>Monday.com</li>
 </ul>
 </section>
 </section>
@@ -247,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/claudiananez\.github\.io\/My-Portfolio-Website\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
