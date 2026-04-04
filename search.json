@@ -102,21 +102,21 @@
     "href": "E80.html",
     "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
     "section": "",
-    "text": "This project ::: {.project-overview} ::: {.project-text}\nDuration: February - April 2022 Team Size: 4 people\nRole: Team Lead :::"
+    "text": "This project"
   },
   {
     "objectID": "E80.html#overview",
     "href": "E80.html#overview",
     "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
     "section": "",
-    "text": "This project ::: {.project-overview} ::: {.project-text}\nDuration: February - April 2022 Team Size: 4 people\nRole: Team Lead :::"
+    "text": "This project"
   },
   {
     "objectID": "E80.html#about-the-project",
     "href": "E80.html#about-the-project",
     "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
     "section": "About the Project",
-    "text": "About the Project\n\n\n\nTop View Drawing\n\n\n\n\n\nIsometric View Drawing\n\n\n\n\n\nRobot After First Deployment Waterproofing Failed\n\n\n\n← Back to Portfolio"
+    "text": "About the Project\n\n\n\nTop View Drawing\n\n\n\n\n\nIsometric View Drawing\n\n\n\n\n\nRobot After First Deployment Waterproofing Failed\n\n\n\n\n\n← Back to Portfolio"
   },
   {
     "objectID": "motiv.html",
@@ -207,27 +207,27 @@
     "href": "E171.html",
     "title": "Bladed Disk Simulation - E171 Final Project",
     "section": "",
-    "text": "Modeled a bladed disk system as a chain of coupled spring–mass oscillators to study how structural variations affect vibration behavior in mechanical systems. Each oscillator represents a turbine blade, with stiffness representing blade flexibility and coupling springs representing interactions between neighboring blades.\n\n\n\n\nApproach We derived equations of motion for a 2DOF spring–mass system and extended the model to an N-degree-of-freedom system. We then formulated the system as a matrix eigenvalue problem, solved for natural frequencies and mode shapes in MATLAB for a 50-DOF system and analyzed the effect of varying the coupling ratio between blades.\nPerfectly Periodic System We assumed that the blades were perfectly periodic, meaning that all blades had the same mass and stiffness. This allowed us to simplify the equations of motion and solve for the natural frequencies and mode shapes of the system.\n\n\n\n\nDownload the Report: Download PDF\nView the Report:\n\n\n\n← Back to Portfolio"
+    "text": "Modeled a bladed disk system as a chain of coupled spring–mass oscillators to study how structural variations affect vibration behavior in mechanical systems. Each oscillator represents a turbine blade, with stiffness representing blade flexibility and coupling springs representing interactions between neighboring blades."
   },
   {
     "objectID": "E171.html#overview",
     "href": "E171.html#overview",
     "title": "Bladed Disk Simulation - E171 Final Project",
     "section": "",
-    "text": "Modeled a bladed disk system as a chain of coupled spring–mass oscillators to study how structural variations affect vibration behavior in mechanical systems. Each oscillator represents a turbine blade, with stiffness representing blade flexibility and coupling springs representing interactions between neighboring blades.\n\n\n\n\nApproach We derived equations of motion for a 2DOF spring–mass system and extended the model to an N-degree-of-freedom system. We then formulated the system as a matrix eigenvalue problem, solved for natural frequencies and mode shapes in MATLAB for a 50-DOF system and analyzed the effect of varying the coupling ratio between blades.\nPerfectly Periodic System We assumed that the blades were perfectly periodic, meaning that all blades had the same mass and stiffness. This allowed us to simplify the equations of motion and solve for the natural frequencies and mode shapes of the system.\n\n\n\n\nDownload the Report: Download PDF\nView the Report:\n\n\n\n← Back to Portfolio"
+    "text": "Modeled a bladed disk system as a chain of coupled spring–mass oscillators to study how structural variations affect vibration behavior in mechanical systems. Each oscillator represents a turbine blade, with stiffness representing blade flexibility and coupling springs representing interactions between neighboring blades."
   },
   {
     "objectID": "E171.html#technical-details",
     "href": "E171.html#technical-details",
     "title": "Bladed Disk Simulation - E171 Final Project",
-    "section": "",
-    "text": "Approach We derived equations of motion for a 2DOF spring–mass system and extended the model to an N-degree-of-freedom system. We then formulated the system as a matrix eigenvalue problem, solved for natural frequencies and mode shapes in MATLAB for a 50-DOF system and analyzed the effect of varying the coupling ratio between blades.\nPerfectly Periodic System We assumed that the blades were perfectly periodic, meaning that all blades had the same mass and stiffness. This allowed us to simplify the equations of motion and solve for the natural frequencies and mode shapes of the system."
+    "section": "Technical Details",
+    "text": "Technical Details\n\nApproach We derived equations of motion for a 2DOF spring–mass system and extended the model to an N-degree-of-freedom system. We then formulated the system as a matrix eigenvalue problem, solved for natural frequencies and mode shapes in MATLAB for a 50-DOF system and analyzed the effect of varying the coupling ratio between blades.\nPerfectly Periodic System We assumed that the blades were perfectly periodic, meaning that all blades had the same mass and stiffness. This allowed us to simplify the equations of motion and solve for the natural frequencies and mode shapes of the system."
   },
   {
     "objectID": "E171.html#final-report",
     "href": "E171.html#final-report",
     "title": "Bladed Disk Simulation - E171 Final Project",
-    "section": "",
-    "text": "Download the Report: Download PDF\nView the Report:\n\n\n\n← Back to Portfolio"
+    "section": "Final Report",
+    "text": "Final Report\nDownload the Report: Download PDF\nView the Report:\n\n\n\n← Back to Portfolio"
   }
 ]
