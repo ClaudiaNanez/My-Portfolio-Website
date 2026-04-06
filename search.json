@@ -130,7 +130,21 @@
     "href": "E80.html#about-the-project",
     "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
     "section": "About the Project",
-    "text": "About the Project\nUsing PVC pipes, we designed a robot that could withstand the pressure of being submerged in water and protect the internal electronics. We also designed a waterproofing system to prevent water from damaging the sensors and electronics. The AUV was equipped with a pressure sensor to measure depth, a temperature sensor to monitor water temperature, and a microphone to capture underwater sounds.\nThe drawings are shown below.\n\n\n\nTop View Drawing\n\n\n\n\n\nIsometric View Drawing\n\n\nAs well as the customized microphone circuit we designed using an op-amp to amplify the signal from the microphone and a bandpass filter to isolate the frequencies of interest. \nThis was our robot after first deployment. Unfortunately, the waterproofing system failed and water got into the robot, damaging the sensors and electronics. We learned a lot from this experience and were able to improve our design for future deployments. \nAt Dana Point, we deployed the AUV and collected data from the sensors. We were able to successfully gather data on depth, temperature, and underwater sounds. The findings are in the report below. \n\n← Back to Portfolio"
+    "text": "About the Project\nUsing PVC pipes, we designed a robot that could withstand the pressure of being submerged in water and protect the internal electronics. We also designed a waterproofing system to prevent water from damaging the sensors and electronics. The AUV was equipped with a pressure sensor to measure depth, a temperature sensor to monitor water temperature, and a microphone to capture underwater sounds.\nThe drawings are shown below.\n\n\n\nTop View Drawing\n\n\n\n\n\nIsometric View Drawing\n\n\nAs well as the customized microphone circuit we designed using an op-amp to amplify the signal from the microphone and a bandpass filter to isolate the frequencies of interest. \nThis was our robot after first deployment. Unfortunately, the waterproofing system failed and water got into the robot, damaging the sensors and electronics. We learned a lot from this experience and were able to improve our design for future deployments. \nAt Dana Point, we deployed the AUV and collected data from the sensors. We were able to successfully gather data on depth, temperature, and underwater sounds. The findings are in the report below."
+  },
+  {
+    "objectID": "E80.html#final-report",
+    "href": "E80.html#final-report",
+    "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
+    "section": "Final Report",
+    "text": "Final Report\nDownload the Report: Download PDF\nView the Report:"
+  },
+  {
+    "objectID": "E80.html#section",
+    "href": "E80.html#section",
+    "title": "E80: Experimental Engineering Autonomous Underwater Vehicle (AUV)",
+    "section": "",
+    "text": "← Back to Portfolio"
   },
   {
     "objectID": "motiv.html",
