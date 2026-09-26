@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-31">
 
-<title>The DabbaWala Line: Bicycle Trade-In System for Mumbai’s Tiffin Carriers</title>
+<title>Handrail Helper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,20 +121,60 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#brief" id="toc-brief" class="nav-link active" data-scroll-target="#brief">Brief</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#from-insight-to-opportunity" id="toc-from-insight-to-opportunity" class="nav-link" data-scroll-target="#from-insight-to-opportunity">From insight to opportunity</a>
+  <ul class="collapse">
+  <li><a href="#our-focus" id="toc-our-focus" class="nav-link" data-scroll-target="#our-focus">Our focus</a></li>
+  <li><a href="#why-stairs" id="toc-why-stairs" class="nav-link" data-scroll-target="#why-stairs">Why stairs</a></li>
+  </ul></li>
+  <li><a href="#proposition-handrail-helper" id="toc-proposition-handrail-helper" class="nav-link" data-scroll-target="#proposition-handrail-helper">Proposition: Handrail Helper</a>
+  <ul class="collapse">
+  <li><a href="#design-requirements" id="toc-design-requirements" class="nav-link" data-scroll-target="#design-requirements">Design requirements</a></li>
+  </ul></li>
+  <li><a href="#prototyping-journey" id="toc-prototyping-journey" class="nav-link" data-scroll-target="#prototyping-journey">Prototyping journey</a></li>
+  <li><a href="#user-testing" id="toc-user-testing" class="nav-link" data-scroll-target="#user-testing">User testing</a>
+  <ul class="collapse">
+  <li><a href="#validated-iteration" id="toc-validated-iteration" class="nav-link" data-scroll-target="#validated-iteration">Validated iteration</a></li>
+  </ul></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#where-it-sits-in-the-market" id="toc-where-it-sits-in-the-market" class="nav-link" data-scroll-target="#where-it-sits-in-the-market">Where it sits in the market</a></li>
+  <li><a href="#hurdles" id="toc-hurdles" class="nav-link" data-scroll-target="#hurdles">Hurdles</a></li>
+  <li><a href="#future-work" id="toc-future-work" class="nav-link" data-scroll-target="#future-work">Future work</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The DabbaWala Line: Bicycle Trade-In System for Mumbai’s Tiffin Carriers</h1>
-</div>
+<h1 class="title">Handrail Helper</h1>
+<p class="subtitle lead">Reducing musculoskeletal strain for institutional cleaners on stairs</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">design research</div>
+    <div class="quarto-category">physical prototyping</div>
+    <div class="quarto-category">ergonomics</div>
+    <div class="quarto-category">IDE</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 31, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -143,77 +184,154 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Dabbawala Line is a proposal to modernize the bicycle lifecycle within Mumbai’s dabbawala lunchbox delivery network — one of the world’s most reliable logistics systems — by introducing a trade-in and rent-to-own scheme with premium folding bikes. We designed a trade-in and rent-to-own scheme, developed in collaboration with Brompton Bicycle, that allows dabbawalas to exchange worn bicycles for higher-quality Brompton folding bikes, financed through a co-operative, decentralized payment model.</p>
-<section id="the-dabbawala-system" class="level2">
-<h2 class="anchored" data-anchor-id="the-dabbawala-system">The Dabbawala System</h2>
-<p>The dabbawala network is a 130-year-old delivery system that moves roughly 190,000 lunch boxes each day across Mumbai, operated by approximately 5,000 dabbawalas with 99.99% accuracy — without the use of GPS or any digital tracking. Each dabbawala carries 30–40kg of cargo per bike, relying on a combination of metro trains and bicycles to complete first-mile collection, sorting, rail transport, and last-mile delivery, all timed to a precise daily schedule.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/journeymap1.png" class="img-fluid figure-img"></p>
-<figcaption>Dabbawalas journey map showing the collection, sorting, rail transport, and delivery cycle from 7:00 AM to 7:00 PM</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/journeymap2.png" class="img-fluid figure-img"></p>
-<figcaption>Return journey showing reverse sorting, empty dabba collection, and final return home</figcaption>
-</figure>
-</div>
+<section id="brief" class="level2">
+<h2 class="anchored" data-anchor-id="brief">Brief</h2>
+<p>Explore cleaning as a profession — working individually with tools and chemicals, and as a unit of people coordinating space hygiene.</p>
 </section>
-<section id="the-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-problem">The Problem</h2>
-<p>Bicycles within the dabbawala system are treated as lifelong assets, often passed down through generations. But increasing theft and continuous wear disrupt this lifecycle, leading to frequent repairs and replacements — resulting in ongoing financial and operational strain for individual dabbawalas.</p>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>Six stages carried the project from brief to a validated prototype:</p>
+<ol type="1">
+<li><strong>Brief set</strong></li>
+<li><strong>Interviews + observations</strong> — 8 cleaners interviewed across 5 environments</li>
+<li><strong>Insights + generalisation</strong> — physical strain surfaced as the focus</li>
+<li><strong>Concept: the pick</strong> — 7 concepts shortlisted to 3</li>
+<li><strong>Concept: Handrail Helper</strong> selected</li>
+<li><strong>User validation</strong> — tested in-situ with residential and hostel cleaners</li>
+</ol>
+<p>We spoke with cleaners and their managers across residential, hostel, and RCA settings, including Facilities Management leads, Head Cleaners, and a live-in cleaner/nanny with 5–17+ years of experience each. Their accounts of stair-carrying — buckets, vacuums, mops, and chemicals hauled by hand, floor after floor — anchored everything that followed.</p>
 </section>
-<section id="our-process" class="level2">
-<h2 class="anchored" data-anchor-id="our-process">Our Process</h2>
-<p>We began with systems-level research into the socio-political and cultural forces shaping transportation in Mumbai, including stakeholder interviews with current and former Mumbai residents and a Brompton brand ambassador.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/process1.png" class="img-fluid figure-img"></p>
-<figcaption>Research boards mapping patterns, trends, underlying structures, and mental models around transportation in Mumbai</figcaption>
-</figure>
-</div>
-<p>One insight that shaped our direction: status plays a significant role in transportation choices in Mumbai. As one interviewee put it, cycling is often perceived as something for the lower class rather than a viable choice across income levels — a perception reflected in the city’s informal transportation hierarchy, where private vehicles sit at the top and walking and cycling sit at the bottom.</p>
-</section>
-<section id="proposed-system" class="level2">
-<h2 class="anchored" data-anchor-id="proposed-system">Proposed System</h2>
-<p>We designed a trade-in and rent-to-own scheme that allows dabbawalas to exchange worn bicycles for higher-quality Brompton folding bikes, financed through a co-operative, decentralized payment model. Money flows bottom-up through the existing dabbawala hierarchy — from individual dabbawala to mukadam (group leader) to governing council — with an added government subsidy supporting a 3-year rent-to-own payment plan with Brompton.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paymentflow.png" class="img-fluid figure-img"></p>
-<figcaption>Proposed cooperative, decentralized payment flow model</figcaption>
-</figure>
-</div>
-<p>The system also incorporates a trade-in and repair pipeline: old bikes are routed to repair-walas or resold to third-party buyers, keeping bicycles in circulation rather than in landfill, while dabbawalas gain access to Brompton’s fold-up design — which can be carried onto trains, reducing theft risk during the rail portion of their route.</p>
-<p><strong>Why Brompton bikes:</strong></p>
+<section id="from-insight-to-opportunity" class="level2">
+<h2 class="anchored" data-anchor-id="from-insight-to-opportunity">From insight to opportunity</h2>
+<p>Three patterns cut across every interview:</p>
 <ul>
-<li><strong>Security</strong> — foldable design allows bikes to be brought onto the train, reducing theft during transit</li>
-<li><strong>Longevity</strong> — built for a 20-year lifecycle, positioning the bike as a generational asset rather than a disposable tool</li>
-<li><strong>Quality</strong> — removes the current hand-off system between bikes, increasing overall system efficiency and potential income</li>
+<li><strong>Invisible expertise</strong> — cleaning involves diverse skills and risk management across contexts, yet this expertise is flattened and unrecognised within current systems.</li>
+<li><strong>Communication and identity invisibility</strong> — language barriers and social dynamics limit cleaners’ ability to communicate, express identity, and be recognised by the communities they serve.</li>
+<li><strong>Invisible strain</strong> — physical strain is normalised as part of the job, so early signs of injury go unnoticed until they become critical.</li>
+<li><strong>System neglect</strong> — existing systems fail to acknowledge or respond to these hidden conditions, delaying intervention and support.</li>
+</ul>
+<p>This pointed to an opportunity: <strong>make the invisible conditions of cleaning work visible</strong>, so early intervention, appropriate support, and safer systems can be enabled.</p>
+<section id="our-focus" class="level3">
+<h3 class="anchored" data-anchor-id="our-focus">Our focus</h3>
+<blockquote class="blockquote">
+<p>Cleaners tolerate chronic physical strain as a baseline condition, not a problem to be solved. Pain is invisible until it becomes critical.</p>
+</blockquote>
+<p><strong>How might we</strong> make early-stage physical strain legible, to cleaners and their employers, so that action is taken before injury, not after?</p>
+</section>
+<section id="why-stairs" class="level3">
+<h3 class="anchored" data-anchor-id="why-stairs">Why stairs</h3>
+<ul>
+<li>Stairwells must stay clear for fire escape — equipment can’t be left on them and must be carried by hand, every floor, every shift.</li>
+<li>Cleaners normalise the resulting pain as occupational inevitability — Carlos, one of the interviewed cleaners, described coming in with pain or a numb arm and still liking the work.</li>
+<li>Musculoskeletal injury is the leading cause of cleaner sick leave (UK HSE data), accounting for 40%+ of work-related ill health in cleaning, with most cases going unreported until critical.</li>
 </ul>
 </section>
-<section id="sustainability-impact" class="level2">
-<h2 class="anchored" data-anchor-id="sustainability-impact">Sustainability Impact</h2>
-<p>Our life cycle analysis compared the carbon footprint of a Brompton bicycle sourced from the UK against non-Brompton alternatives across materials, production, distribution, use, and end-of-life stages. Distribution accounted for the largest share of emissions (53%), followed by production (25%) and materials (14%).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/carbonchart.png" class="img-fluid figure-img"></p>
-<figcaption>Carbon emissions by life cycle stage for a Brompton bicycle shipped from the UK to Mumbai</figcaption>
-</figure>
-</div>
-<p>Comparing design scenarios — UK distribution reduced total emissions by 49%, primarily by cutting distribution-related emissions by 93% relative to the original scenario.</p>
-<p>Because one durable Brompton bike (20-year lifespan) can replace roughly four dabbawala bikes (each with a 3–5 year lifespan), the proposed system results in an estimated <strong>+70% resource savings</strong> and <strong>+400% increase in product lifespan</strong> per bike in circulation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/sustainabilitycompare.png" class="img-fluid figure-img"></p>
-<figcaption>Comparison of four short-lifespan dabbawala bikes versus one long-lifespan Brompton bike</figcaption>
-</figure>
-</div>
 </section>
-<section id="looking-ahead" class="level2">
-<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
-<p>Beyond bicycle longevity, this system opens the door to a broader rebrand and expansion of the dabbawala network’s role in Mumbai’s delivery economy — positioning it to compete with app-based delivery services while preserving its cooperative, community-rooted structure.</p>
-<p><a href="index.html#projects-experience" class="back-link">Back to Portfolio</a></p>
+<section id="proposition-handrail-helper" class="level2">
+<h2 class="anchored" data-anchor-id="proposition-handrail-helper">Proposition: Handrail Helper</h2>
+<p><strong>What it is</strong> — a detachable, self-levelling cradle that clamps to any staircase handrail, holding buckets, vacuums, and cleaning supplies hands-free.</p>
+<p><strong>How it works</strong> — a size-adjustable clamp grips the rail, while a pivoting, self-levelling platform keeps the load horizontal on any stair gradient.</p>
+<p><strong>Who it’s for</strong> — institutional cleaners navigating multi-floor buildings in residential, educational, and hospitality settings, where stair load is daily and unavoidable.</p>
+<section id="design-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="design-requirements">Design requirements</h3>
+<p>Observing what a cleaner’s hands actually carry on a staircase shaped the brief: heavy, liquid-filled buckets carried the full height of the stair run; sprays, cloths and chemicals slung asymmetrically over one shoulder; bulky mop and vacuum equipment dragged off-balance on each step. Form followed that burden:</p>
+<ul>
+<li><strong>Self-levelling platform</strong> — bucket contents spill if tilted, and stair angles make this unavoidable without a pivot.</li>
+<li><strong>Adjustable handrail width</strong> — the attachment system must adapt to different handrail styles.</li>
+<li><strong>Secure brake by default</strong> — load must stay fixed when the cleaner lets go, releasing only on demand.</li>
+</ul>
+</section>
+</section>
+<section id="prototyping-journey" class="level2">
+<h2 class="anchored" data-anchor-id="prototyping-journey">Prototyping journey</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/handrail-helper-prototype.jpg" class="img-fluid figure-img"></p>
+<figcaption>Final prototype built for user testing — self-levelling cradle, adjustable clamp, and modular vacuum housing.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>v0.1</strong> — fixed platform</li>
+<li><strong>v0.2</strong> — self-levelling introduced</li>
+<li><strong>v1.0</strong> — self-levelling platform with a secure braking system</li>
+<li><strong>v1.1</strong> — modular cradle to house a typically-used vacuum cleaner</li>
+</ul>
+</section>
+<section id="user-testing" class="level2">
+<h2 class="anchored" data-anchor-id="user-testing">User testing</h2>
+<p>Tested with Juliet at Nine Elms Residential, and with Maleah at the Hostel:</p>
+<p><strong>What worked</strong></p>
+<ul>
+<li>Self-levelling was well received</li>
+<li>Testers could see value on wider banisters</li>
+<li>The hoover use case was recognised as most relevant</li>
+</ul>
+<p><strong>Safety concerns raised</strong></p>
+<ul>
+<li>Unsupervised interaction from non-intended users (guests, children)</li>
+<li>Risk of the unit falling down the stairs and hitting people</li>
+<li>Uncontrolled sliding with heavier loads</li>
+</ul>
+<p><strong>Usability concerns raised</strong></p>
+<ul>
+<li>Bag attachment came loose, risking items falling</li>
+<li>The mop bucket didn’t fit the holder</li>
+<li>It marked the surface of a wooden handrail</li>
+<li>Only worked on the middle handrail, not the edge rail</li>
+<li>Thin metal rails were difficult to navigate</li>
+</ul>
+<section id="validated-iteration" class="level3">
+<h3 class="anchored" data-anchor-id="validated-iteration">Validated iteration</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/handrail-helper-render.png" class="img-fluid figure-img"></p>
+<figcaption>Render of the validated Handrail Helper — chevron holder top, horizontal side panels for cloths, and one-handed clamp.</figcaption>
+</figure>
+</div>
+<ul>
+<li>Holder top changed from curved to chevron to match a 30° handrail angle, reducing material and weight</li>
+<li>Side panel tops made horizontal to hold wiping cloths</li>
+<li>Clamp direction changed to allow one-handed operation and easy attachment</li>
+<li>Fold-able design for convenient storage</li>
+</ul>
+</section>
+</section>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">Impact</h2>
+<ul>
+<li>Reduces daily musculoskeletal load for cleaners in multi-floor buildings</li>
+<li>Validated as intuitive, with low adoption friction</li>
+<li>Deployable by facilities management companies or supplied directly to cleaning contractors</li>
+<li>Mechanical, no power source required — low maintenance cost</li>
+<li>Addresses the gap between individual injury and systemic inaction</li>
+</ul>
+</section>
+<section id="where-it-sits-in-the-market" class="level2">
+<h2 class="anchored" data-anchor-id="where-it-sits-in-the-market">Where it sits in the market</h2>
+<p>Existing options cluster at the extremes: the MIGO Ascender (autonomous, high cost) and vacuum back packs at one end, the BRUTE® Maid Caddy (manual, low cost) at the other. The Handrail Helper sits in the low-cost, manual segment — priced and engineered for everyday adoption rather than a robotics budget.</p>
+</section>
+<section id="hurdles" class="level2">
+<h2 class="anchored" data-anchor-id="hurdles">Hurdles</h2>
+<ul>
+<li>Handrail geometry variation across buildings</li>
+<li>Stair configuration and clamping force differ site to site</li>
+<li>Contractor fragmentation — stair cleaning is often outsourced separately, so procurement and liability must be resolved at the institutional level</li>
+</ul>
+</section>
+<section id="future-work" class="level2">
+<h2 class="anchored" data-anchor-id="future-work">Future work</h2>
+<ul>
+<li>A conforming plate-and-roller concept: springs and hinges rather than adjustment screws, so the mechanism passively adapts to different handrail diameters and profiles</li>
+<li>Rollers to reduce friction, making the device easier to push up the handrail</li>
+<li>BS/CE load-bearing testing, likely in partnership with a facilities supplier, to de-risk rail attachment</li>
+<li>Testing across spiral, split, and narrow staircase typologies</li>
+</ul>
+<hr>
+<blockquote class="blockquote">
+<p>“The tool that carries the cleaner’s load, so they don’t have to.”</p>
+<p>Clark &amp; Chalmers asked: where does the mind stop, and the rest of the world begin? We ask: where does the cleaner’s body stop, and their tools begin?</p>
+</blockquote>
+<p><a href="index.html#professional-experience" class="back-link">Back to Portfolio</a></p>
 
 
 </section>
