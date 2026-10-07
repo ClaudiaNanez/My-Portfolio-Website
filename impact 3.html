@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-31">
 
-<title>omnilabs</title>
+<title>Handrail Helper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,62 +121,216 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#brief" id="toc-brief" class="nav-link active" data-scroll-target="#brief">Brief</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#from-insight-to-opportunity" id="toc-from-insight-to-opportunity" class="nav-link" data-scroll-target="#from-insight-to-opportunity">From insight to opportunity</a>
+  <ul class="collapse">
+  <li><a href="#our-focus" id="toc-our-focus" class="nav-link" data-scroll-target="#our-focus">Our focus</a></li>
+  <li><a href="#why-stairs" id="toc-why-stairs" class="nav-link" data-scroll-target="#why-stairs">Why stairs</a></li>
+  </ul></li>
+  <li><a href="#proposition-handrail-helper" id="toc-proposition-handrail-helper" class="nav-link" data-scroll-target="#proposition-handrail-helper">Proposition: Handrail Helper</a>
+  <ul class="collapse">
+  <li><a href="#design-requirements" id="toc-design-requirements" class="nav-link" data-scroll-target="#design-requirements">Design requirements</a></li>
+  </ul></li>
+  <li><a href="#prototyping-journey" id="toc-prototyping-journey" class="nav-link" data-scroll-target="#prototyping-journey">Prototyping journey</a></li>
+  <li><a href="#user-testing" id="toc-user-testing" class="nav-link" data-scroll-target="#user-testing">User testing</a>
+  <ul class="collapse">
+  <li><a href="#validated-iteration" id="toc-validated-iteration" class="nav-link" data-scroll-target="#validated-iteration">Validated iteration</a></li>
+  </ul></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#where-it-sits-in-the-market" id="toc-where-it-sits-in-the-market" class="nav-link" data-scroll-target="#where-it-sits-in-the-market">Where it sits in the market</a></li>
+  <li><a href="#hurdles" id="toc-hurdles" class="nav-link" data-scroll-target="#hurdles">Hurdles</a></li>
+  <li><a href="#future-work" id="toc-future-work" class="nav-link" data-scroll-target="#future-work">Future work</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Handrail Helper</h1>
+<p class="subtitle lead">Reducing musculoskeletal strain for institutional cleaners on stairs</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">design research</div>
+    <div class="quarto-category">physical prototyping</div>
+    <div class="quarto-category">ergonomics</div>
+    <div class="quarto-category">IDE</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta column-page-left">
 
-<section id="what-is-omnilabs-research" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-omnilabs-research">What is Omnilabs Research?</h2>
-<p>Omnilabs Research is a medical technology company building rehabilitation tools for stroke survivors. This summer, I joined the team for an eight-week Professional Consolidation internship, working on the hardware behind Omnihuman — a remote fine motor rehabilitation experience.</p>
-<div class="big-caption">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/omnilabs.gif" class="img-fluid figure-img"></p>
-<figcaption>Testing the User Feasability of the Design</figcaption>
-</figure>
-</div>
-</div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 31, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="brief" class="level2">
+<h2 class="anchored" data-anchor-id="brief">Brief</h2>
+<p>Explore cleaning as a profession — working individually with tools and chemicals, and as a unit of people coordinating space hygiene.</p>
 </section>
-<section id="the-background" class="level2">
-<h2 class="anchored" data-anchor-id="the-background">The Background</h2>
-<p>Omnilabs has spent the past few years developing Omnihuman, a system that gameifies tele-rehabilitation for stroke survivors. Early prototypes paired Apple Vision Pro headsets with a game-like interface, challenging users to complete tasks that rebuild fine motor control. To make that interface physical, the company has been building a hand glove that drives a user’s finger flexion and extension during gameplay.</p>
-<p>By the time I joined, the glove relied on pneumatics — a system of tubes, valves, and bellows — to actuate movement. With Omnilabs aiming to manufacture 150 units in the coming months, the team’s priority for the summer was clear: finalize a version of the glove ready for mass production.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/omnilabstesting.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>In the Electronics Design Lab Testing</figcaption>
-</figure>
-</div>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>Six stages carried the project from brief to a validated prototype:</p>
+<ol type="1">
+<li><strong>Brief set</strong></li>
+<li><strong>Interviews + observations</strong> — 8 cleaners interviewed across 5 environments</li>
+<li><strong>Insights + generalisation</strong> — physical strain surfaced as the focus</li>
+<li><strong>Concept: the pick</strong> — 7 concepts shortlisted to 3</li>
+<li><strong>Concept: Handrail Helper</strong> selected</li>
+<li><strong>User validation</strong> — tested in-situ with residential and hostel cleaners</li>
+</ol>
+<p>We spoke with cleaners and their managers across residential, hostel, and RCA settings, including Facilities Management leads, Head Cleaners, and a live-in cleaner/nanny with 5–17+ years of experience each. Their accounts of stair-carrying — buckets, vacuums, mops, and chemicals hauled by hand, floor after floor — anchored everything that followed.</p>
 </section>
-<section id="the-process" class="level2">
-<h2 class="anchored" data-anchor-id="the-process">The Process</h2>
-<p>I reported to the head of engineering and worked across three main threads over the eight weeks.</p>
-<p><strong>Pneumatic System Development.</strong> The first version of the core relied on pneumatics — safe and flexible, but technically demanding. In my first few weeks, I helped fix issues in the early pneumatic cores: sourcing a new power supply and polyurethane tubing, researching whether the system needed one pump or five to actuate all five fingers, and writing the code that controlled flexion and extension of the glove. Once the new tubing and power supply were integrated, we tested the system with new fingertip extensions.</p>
-<p><strong>Fully Electric System Design.</strong> After meeting with stakeholders, the team decided to move away from pneumatics entirely, toward an electric system driven by motors with magnetic encoders for position tracking. Motors trade some of the pneumatic system’s physical flexibility for something more controllable and easier to source. We settled on 3-phase brushless motors — the kind more often found in drones — driven by motor drivers, powered by a 12V supply, and controlled by an Arduino ESP32-S3.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/protoboard.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Wiring the Protoboard</figcaption>
-</figure>
-</div>
-<p>Once the new components arrived, I drew a full system diagram and tested the wiring in the lab. After confirming everything worked, I soldered components and JST connectors onto a protoboard, and we ran further tests to finalize glove iterations compatible with the new motor pulley system. From there, I designed a schematic to hand off to the company’s third-party PCB developers — connecting the board, a multiplexer, the motor drivers, and the connectors — which my manager finalized by adding a buck converter.</p>
-<p><strong>Core Design.</strong> In my final week, I helped redesign the core housing to fit the new electronics: the power supply, motors, PCB, tubing, and magnetic encoders. The design isn’t final — it’s missing some of the aesthetic polish that mass production will need — but it gave the team a working framework to build from.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/omnilabsfinal.png" class="img-fluid figure-img"></p>
-<figcaption>Final Glove and Core Prototype</figcaption>
-</figure>
-</div>
+<section id="from-insight-to-opportunity" class="level2">
+<h2 class="anchored" data-anchor-id="from-insight-to-opportunity">From insight to opportunity</h2>
+<p>Three patterns cut across every interview:</p>
+<ul>
+<li><strong>Invisible expertise</strong> — cleaning involves diverse skills and risk management across contexts, yet this expertise is flattened and unrecognised within current systems.</li>
+<li><strong>Communication and identity invisibility</strong> — language barriers and social dynamics limit cleaners’ ability to communicate, express identity, and be recognised by the communities they serve.</li>
+<li><strong>Invisible strain</strong> — physical strain is normalised as part of the job, so early signs of injury go unnoticed until they become critical.</li>
+<li><strong>System neglect</strong> — existing systems fail to acknowledge or respond to these hidden conditions, delaying intervention and support.</li>
+</ul>
+<p>This pointed to an opportunity: <strong>make the invisible conditions of cleaning work visible</strong>, so early intervention, appropriate support, and safer systems can be enabled.</p>
+<section id="our-focus" class="level3">
+<h3 class="anchored" data-anchor-id="our-focus">Our focus</h3>
+<blockquote class="blockquote">
+<p>Cleaners tolerate chronic physical strain as a baseline condition, not a problem to be solved. Pain is invisible until it becomes critical.</p>
+</blockquote>
+<p><strong>How might we</strong> make early-stage physical strain legible, to cleaners and their employers, so that action is taken before injury, not after?</p>
 </section>
-<section id="final-report" class="level2">
-<h2 class="anchored" data-anchor-id="final-report">Final Report</h2>
-<p>To see a more detailed breakdown of the internship, including the full technical scope, please view the supplementary report below.</p>
-<p><a href="files/omnilabsreport.pdf" class="download-link">Download PDF</a></p>
-<iframe src="files/omnilabsreport.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;">
-</iframe>
+<section id="why-stairs" class="level3">
+<h3 class="anchored" data-anchor-id="why-stairs">Why stairs</h3>
+<ul>
+<li>Stairwells must stay clear for fire escape — equipment can’t be left on them and must be carried by hand, every floor, every shift.</li>
+<li>Cleaners normalise the resulting pain as occupational inevitability — Carlos, one of the interviewed cleaners, described coming in with pain or a numb arm and still liking the work.</li>
+<li>Musculoskeletal injury is the leading cause of cleaner sick leave (UK HSE data), accounting for 40%+ of work-related ill health in cleaning, with most cases going unreported until critical.</li>
+</ul>
+</section>
+</section>
+<section id="proposition-handrail-helper" class="level2">
+<h2 class="anchored" data-anchor-id="proposition-handrail-helper">Proposition: Handrail Helper</h2>
+<p><strong>What it is</strong> — a detachable, self-levelling cradle that clamps to any staircase handrail, holding buckets, vacuums, and cleaning supplies hands-free.</p>
+<p><strong>How it works</strong> — a size-adjustable clamp grips the rail, while a pivoting, self-levelling platform keeps the load horizontal on any stair gradient.</p>
+<p><strong>Who it’s for</strong> — institutional cleaners navigating multi-floor buildings in residential, educational, and hospitality settings, where stair load is daily and unavoidable.</p>
+<section id="design-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="design-requirements">Design requirements</h3>
+<p>Observing what a cleaner’s hands actually carry on a staircase shaped the brief: heavy, liquid-filled buckets carried the full height of the stair run; sprays, cloths and chemicals slung asymmetrically over one shoulder; bulky mop and vacuum equipment dragged off-balance on each step. Form followed that burden:</p>
+<ul>
+<li><strong>Self-levelling platform</strong> — bucket contents spill if tilted, and stair angles make this unavoidable without a pivot.</li>
+<li><strong>Adjustable handrail width</strong> — the attachment system must adapt to different handrail styles.</li>
+<li><strong>Secure brake by default</strong> — load must stay fixed when the cleaner lets go, releasing only on demand.</li>
+</ul>
+</section>
+</section>
+<section id="prototyping-journey" class="level2">
+<h2 class="anchored" data-anchor-id="prototyping-journey">Prototyping journey</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/handrail-helper-prototype.jpg" class="img-fluid figure-img"></p>
+<figcaption>Final prototype built for user testing — self-levelling cradle, adjustable clamp, and modular vacuum housing.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>v0.1</strong> — fixed platform</li>
+<li><strong>v0.2</strong> — self-levelling introduced</li>
+<li><strong>v1.0</strong> — self-levelling platform with a secure braking system</li>
+<li><strong>v1.1</strong> — modular cradle to house a typically-used vacuum cleaner</li>
+</ul>
+</section>
+<section id="user-testing" class="level2">
+<h2 class="anchored" data-anchor-id="user-testing">User testing</h2>
+<p>Tested with Juliet at Nine Elms Residential, and with Maleah at the Hostel:</p>
+<p><strong>What worked</strong></p>
+<ul>
+<li>Self-levelling was well received</li>
+<li>Testers could see value on wider banisters</li>
+<li>The hoover use case was recognised as most relevant</li>
+</ul>
+<p><strong>Safety concerns raised</strong></p>
+<ul>
+<li>Unsupervised interaction from non-intended users (guests, children)</li>
+<li>Risk of the unit falling down the stairs and hitting people</li>
+<li>Uncontrolled sliding with heavier loads</li>
+</ul>
+<p><strong>Usability concerns raised</strong></p>
+<ul>
+<li>Bag attachment came loose, risking items falling</li>
+<li>The mop bucket didn’t fit the holder</li>
+<li>It marked the surface of a wooden handrail</li>
+<li>Only worked on the middle handrail, not the edge rail</li>
+<li>Thin metal rails were difficult to navigate</li>
+</ul>
+<section id="validated-iteration" class="level3">
+<h3 class="anchored" data-anchor-id="validated-iteration">Validated iteration</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/handrail-helper-render.png" class="img-fluid figure-img"></p>
+<figcaption>Render of the validated Handrail Helper — chevron holder top, horizontal side panels for cloths, and one-handed clamp.</figcaption>
+</figure>
+</div>
+<ul>
+<li>Holder top changed from curved to chevron to match a 30° handrail angle, reducing material and weight</li>
+<li>Side panel tops made horizontal to hold wiping cloths</li>
+<li>Clamp direction changed to allow one-handed operation and easy attachment</li>
+<li>Fold-able design for convenient storage</li>
+</ul>
+</section>
+</section>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">Impact</h2>
+<ul>
+<li>Reduces daily musculoskeletal load for cleaners in multi-floor buildings</li>
+<li>Validated as intuitive, with low adoption friction</li>
+<li>Deployable by facilities management companies or supplied directly to cleaning contractors</li>
+<li>Mechanical, no power source required — low maintenance cost</li>
+<li>Addresses the gap between individual injury and systemic inaction</li>
+</ul>
+</section>
+<section id="where-it-sits-in-the-market" class="level2">
+<h2 class="anchored" data-anchor-id="where-it-sits-in-the-market">Where it sits in the market</h2>
+<p>Existing options cluster at the extremes: the MIGO Ascender (autonomous, high cost) and vacuum back packs at one end, the BRUTE® Maid Caddy (manual, low cost) at the other. The Handrail Helper sits in the low-cost, manual segment — priced and engineered for everyday adoption rather than a robotics budget.</p>
+</section>
+<section id="hurdles" class="level2">
+<h2 class="anchored" data-anchor-id="hurdles">Hurdles</h2>
+<ul>
+<li>Handrail geometry variation across buildings</li>
+<li>Stair configuration and clamping force differ site to site</li>
+<li>Contractor fragmentation — stair cleaning is often outsourced separately, so procurement and liability must be resolved at the institutional level</li>
+</ul>
+</section>
+<section id="future-work" class="level2">
+<h2 class="anchored" data-anchor-id="future-work">Future work</h2>
+<ul>
+<li>A conforming plate-and-roller concept: springs and hinges rather than adjustment screws, so the mechanism passively adapts to different handrail diameters and profiles</li>
+<li>Rollers to reduce friction, making the device easier to push up the handrail</li>
+<li>BS/CE load-bearing testing, likely in partnership with a facilities supplier, to de-risk rail attachment</li>
+<li>Testing across spiral, split, and narrow staircase typologies</li>
+</ul>
+<hr>
+<blockquote class="blockquote">
+<p>“The tool that carries the cleaner’s load, so they don’t have to.”</p>
+<p>Clark &amp; Chalmers asked: where does the mind stop, and the rest of the world begin? We ask: where does the cleaner’s body stop, and their tools begin?</p>
+</blockquote>
 <p><a href="index.html#professional-experience" class="back-link">Back to Portfolio</a></p>
 
 

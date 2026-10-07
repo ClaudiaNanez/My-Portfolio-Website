@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>omnilabs</title>
+<title>Sit Still</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,59 +122,59 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sit Still</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
 
-<section id="what-is-omnilabs-research" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-omnilabs-research">What is Omnilabs Research?</h2>
-<p>Omnilabs Research is a medical technology company building rehabilitation tools for stroke survivors. This summer, I joined the team for an eight-week Professional Consolidation internship, working on the hardware behind Omnihuman — a remote fine motor rehabilitation experience.</p>
-<div class="big-caption">
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="about-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-project">About This Project</h2>
+<p>Sit Still is a phrase many Black girls hear while getting their hair braided, pressed, or styled. It is a reminder of both generational love and hardship. Hair has long been politicized: during the transatlantic slave trade, enslaved Africans were forced to shave their heads, erasing cultural identity. Bias against natural Black hair persists today, shaped by centuries of oppression.</p>
+<p>This chair reflects that history. Throne-like, yet reminiscent of prison bars, it references both resilience and the ongoing inequities embedded in systems like mass incarceration, permitted under the 13th Amendment in the United States today.</p>
+<p>Using found materials, I experimented with human hair trimmings collected from local salons, felting it into a quilted upholstery textile. Like enslaved artisans who crafted tools and furniture from scraps, I transformed what was overlooked into something structural and dignified. The salon, central to both Black and Latinx communities and to my own heritage, grounds this work. By reclaiming hair waste and scrap metal, I center regeneration, identity, and care in my design practice.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/omnilabs.gif" class="img-fluid figure-img"></p>
-<figcaption>Testing the User Feasability of the Design</figcaption>
+<p><img src="images/front.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Sit Still</figcaption>
 </figure>
 </div>
-</div>
-</section>
-<section id="the-background" class="level2">
-<h2 class="anchored" data-anchor-id="the-background">The Background</h2>
-<p>Omnilabs has spent the past few years developing Omnihuman, a system that gameifies tele-rehabilitation for stroke survivors. Early prototypes paired Apple Vision Pro headsets with a game-like interface, challenging users to complete tasks that rebuild fine motor control. To make that interface physical, the company has been building a hand glove that drives a user’s finger flexion and extension during gameplay.</p>
-<p>By the time I joined, the glove relied on pneumatics — a system of tubes, valves, and bellows — to actuate movement. With Omnilabs aiming to manufacture 150 units in the coming months, the team’s priority for the summer was clear: finalize a version of the glove ready for mass production.</p>
+<p>Below, I document my process and final images.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/omnilabstesting.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>In the Electronics Design Lab Testing</figcaption>
+<p><img src="images/sketches.png" class="img-fluid figure-img"></p>
+<figcaption>Sketching Process</figcaption>
 </figure>
 </div>
-</section>
-<section id="the-process" class="level2">
-<h2 class="anchored" data-anchor-id="the-process">The Process</h2>
-<p>I reported to the head of engineering and worked across three main threads over the eight weeks.</p>
-<p><strong>Pneumatic System Development.</strong> The first version of the core relied on pneumatics — safe and flexible, but technically demanding. In my first few weeks, I helped fix issues in the early pneumatic cores: sourcing a new power supply and polyurethane tubing, researching whether the system needed one pump or five to actuate all five fingers, and writing the code that controlled flexion and extension of the glove. Once the new tubing and power supply were integrated, we tested the system with new fingertip extensions.</p>
-<p><strong>Fully Electric System Design.</strong> After meeting with stakeholders, the team decided to move away from pneumatics entirely, toward an electric system driven by motors with magnetic encoders for position tracking. Motors trade some of the pneumatic system’s physical flexibility for something more controllable and easier to source. We settled on 3-phase brushless motors — the kind more often found in drones — driven by motor drivers, powered by a 12V supply, and controlled by an Arduino ESP32-S3.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/protoboard.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Wiring the Protoboard</figcaption>
+<p><img src="images/topview.jpg" class="img-fluid figure-img"></p>
+<figcaption>Top View</figcaption>
 </figure>
 </div>
-<p>Once the new components arrived, I drew a full system diagram and tested the wiring in the lab. After confirming everything worked, I soldered components and JST connectors onto a protoboard, and we ran further tests to finalize glove iterations compatible with the new motor pulley system. From there, I designed a schematic to hand off to the company’s third-party PCB developers — connecting the board, a multiplexer, the motor drivers, and the connectors — which my manager finalized by adding a buck converter.</p>
-<p><strong>Core Design.</strong> In my final week, I helped redesign the core housing to fit the new electronics: the power supply, motors, PCB, tubing, and magnetic encoders. The design isn’t final — it’s missing some of the aesthetic polish that mass production will need — but it gave the team a working framework to build from.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/omnilabsfinal.png" class="img-fluid figure-img"></p>
-<figcaption>Final Glove and Core Prototype</figcaption>
+<p><img src="images/sideview.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Side View</figcaption>
 </figure>
 </div>
-</section>
-<section id="final-report" class="level2">
-<h2 class="anchored" data-anchor-id="final-report">Final Report</h2>
-<p>To see a more detailed breakdown of the internship, including the full technical scope, please view the supplementary report below.</p>
-<p><a href="files/omnilabsreport.pdf" class="download-link">Download PDF</a></p>
-<iframe src="files/omnilabsreport.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;">
+<p><strong>Exhibition Booklet:</strong></p>
+<iframe src="files/sgportfolio.pdf" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 5px;">
 </iframe>
 <p><a href="index.html#professional-experience" class="back-link">Back to Portfolio</a></p>
 

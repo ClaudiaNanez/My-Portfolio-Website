@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>omnilabs</title>
+<title>The DabbaWala Line: Bicycle Trade-In System for Mumbai’s Tiffin Carriers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,61 +122,98 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The DabbaWala Line: Bicycle Trade-In System for Mumbai’s Tiffin Carriers</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
 
-<section id="what-is-omnilabs-research" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-omnilabs-research">What is Omnilabs Research?</h2>
-<p>Omnilabs Research is a medical technology company building rehabilitation tools for stroke survivors. This summer, I joined the team for an eight-week Professional Consolidation internship, working on the hardware behind Omnihuman — a remote fine motor rehabilitation experience.</p>
-<div class="big-caption">
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The Dabbawala Line is a proposal to modernize the bicycle lifecycle within Mumbai’s dabbawala lunchbox delivery network — one of the world’s most reliable logistics systems — by introducing a trade-in and rent-to-own scheme with premium folding bikes. We designed a trade-in and rent-to-own scheme, developed in collaboration with Brompton Bicycle, that allows dabbawalas to exchange worn bicycles for higher-quality Brompton folding bikes, financed through a co-operative, decentralized payment model.</p>
+<section id="the-dabbawala-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-dabbawala-system">The Dabbawala System</h2>
+<p>The dabbawala network is a 130-year-old delivery system that moves roughly 190,000 lunch boxes each day across Mumbai, operated by approximately 5,000 dabbawalas with 99.99% accuracy — without the use of GPS or any digital tracking. Each dabbawala carries 30–40kg of cargo per bike, relying on a combination of metro trains and bicycles to complete first-mile collection, sorting, rail transport, and last-mile delivery, all timed to a precise daily schedule.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/omnilabs.gif" class="img-fluid figure-img"></p>
-<figcaption>Testing the User Feasability of the Design</figcaption>
+<p><img src="images/journeymap1.png" class="img-fluid figure-img"></p>
+<figcaption>Dabbawalas journey map showing the collection, sorting, rail transport, and delivery cycle from 7:00 AM to 7:00 PM</figcaption>
 </figure>
 </div>
-</div>
-</section>
-<section id="the-background" class="level2">
-<h2 class="anchored" data-anchor-id="the-background">The Background</h2>
-<p>Omnilabs has spent the past few years developing Omnihuman, a system that gameifies tele-rehabilitation for stroke survivors. Early prototypes paired Apple Vision Pro headsets with a game-like interface, challenging users to complete tasks that rebuild fine motor control. To make that interface physical, the company has been building a hand glove that drives a user’s finger flexion and extension during gameplay.</p>
-<p>By the time I joined, the glove relied on pneumatics — a system of tubes, valves, and bellows — to actuate movement. With Omnilabs aiming to manufacture 150 units in the coming months, the team’s priority for the summer was clear: finalize a version of the glove ready for mass production.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/omnilabstesting.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>In the Electronics Design Lab Testing</figcaption>
-</figure>
-</div>
-</section>
-<section id="the-process" class="level2">
-<h2 class="anchored" data-anchor-id="the-process">The Process</h2>
-<p>I reported to the head of engineering and worked across three main threads over the eight weeks.</p>
-<p><strong>Pneumatic System Development.</strong> The first version of the core relied on pneumatics — safe and flexible, but technically demanding. In my first few weeks, I helped fix issues in the early pneumatic cores: sourcing a new power supply and polyurethane tubing, researching whether the system needed one pump or five to actuate all five fingers, and writing the code that controlled flexion and extension of the glove. Once the new tubing and power supply were integrated, we tested the system with new fingertip extensions.</p>
-<p><strong>Fully Electric System Design.</strong> After meeting with stakeholders, the team decided to move away from pneumatics entirely, toward an electric system driven by motors with magnetic encoders for position tracking. Motors trade some of the pneumatic system’s physical flexibility for something more controllable and easier to source. We settled on 3-phase brushless motors — the kind more often found in drones — driven by motor drivers, powered by a 12V supply, and controlled by an Arduino ESP32-S3.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/protoboard.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Wiring the Protoboard</figcaption>
-</figure>
-</div>
-<p>Once the new components arrived, I drew a full system diagram and tested the wiring in the lab. After confirming everything worked, I soldered components and JST connectors onto a protoboard, and we ran further tests to finalize glove iterations compatible with the new motor pulley system. From there, I designed a schematic to hand off to the company’s third-party PCB developers — connecting the board, a multiplexer, the motor drivers, and the connectors — which my manager finalized by adding a buck converter.</p>
-<p><strong>Core Design.</strong> In my final week, I helped redesign the core housing to fit the new electronics: the power supply, motors, PCB, tubing, and magnetic encoders. The design isn’t final — it’s missing some of the aesthetic polish that mass production will need — but it gave the team a working framework to build from.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/omnilabsfinal.png" class="img-fluid figure-img"></p>
-<figcaption>Final Glove and Core Prototype</figcaption>
+<p><img src="images/journeymap2.png" class="img-fluid figure-img"></p>
+<figcaption>Return journey showing reverse sorting, empty dabba collection, and final return home</figcaption>
 </figure>
 </div>
 </section>
-<section id="final-report" class="level2">
-<h2 class="anchored" data-anchor-id="final-report">Final Report</h2>
-<p>To see a more detailed breakdown of the internship, including the full technical scope, please view the supplementary report below.</p>
-<p><a href="files/omnilabsreport.pdf" class="download-link">Download PDF</a></p>
-<iframe src="files/omnilabsreport.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;">
-</iframe>
-<p><a href="index.html#professional-experience" class="back-link">Back to Portfolio</a></p>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The Problem</h2>
+<p>Bicycles within the dabbawala system are treated as lifelong assets, often passed down through generations. But increasing theft and continuous wear disrupt this lifecycle, leading to frequent repairs and replacements — resulting in ongoing financial and operational strain for individual dabbawalas.</p>
+</section>
+<section id="our-process" class="level2">
+<h2 class="anchored" data-anchor-id="our-process">Our Process</h2>
+<p>We began with systems-level research into the socio-political and cultural forces shaping transportation in Mumbai, including stakeholder interviews with current and former Mumbai residents and a Brompton brand ambassador.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/process1.png" class="img-fluid figure-img"></p>
+<figcaption>Research boards mapping patterns, trends, underlying structures, and mental models around transportation in Mumbai</figcaption>
+</figure>
+</div>
+<p>One insight that shaped our direction: status plays a significant role in transportation choices in Mumbai. As one interviewee put it, cycling is often perceived as something for the lower class rather than a viable choice across income levels — a perception reflected in the city’s informal transportation hierarchy, where private vehicles sit at the top and walking and cycling sit at the bottom.</p>
+</section>
+<section id="proposed-system" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-system">Proposed System</h2>
+<p>We designed a trade-in and rent-to-own scheme that allows dabbawalas to exchange worn bicycles for higher-quality Brompton folding bikes, financed through a co-operative, decentralized payment model. Money flows bottom-up through the existing dabbawala hierarchy — from individual dabbawala to mukadam (group leader) to governing council — with an added government subsidy supporting a 3-year rent-to-own payment plan with Brompton.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paymentflow.png" class="img-fluid figure-img"></p>
+<figcaption>Proposed cooperative, decentralized payment flow model</figcaption>
+</figure>
+</div>
+<p>The system also incorporates a trade-in and repair pipeline: old bikes are routed to repair-walas or resold to third-party buyers, keeping bicycles in circulation rather than in landfill, while dabbawalas gain access to Brompton’s fold-up design — which can be carried onto trains, reducing theft risk during the rail portion of their route.</p>
+<p><strong>Why Brompton bikes:</strong></p>
+<ul>
+<li><strong>Security</strong> — foldable design allows bikes to be brought onto the train, reducing theft during transit</li>
+<li><strong>Longevity</strong> — built for a 20-year lifecycle, positioning the bike as a generational asset rather than a disposable tool</li>
+<li><strong>Quality</strong> — removes the current hand-off system between bikes, increasing overall system efficiency and potential income</li>
+</ul>
+</section>
+<section id="sustainability-impact" class="level2">
+<h2 class="anchored" data-anchor-id="sustainability-impact">Sustainability Impact</h2>
+<p>Our life cycle analysis compared the carbon footprint of a Brompton bicycle sourced from the UK against non-Brompton alternatives across materials, production, distribution, use, and end-of-life stages. Distribution accounted for the largest share of emissions (53%), followed by production (25%) and materials (14%).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/carbonchart.png" class="img-fluid figure-img"></p>
+<figcaption>Carbon emissions by life cycle stage for a Brompton bicycle shipped from the UK to Mumbai</figcaption>
+</figure>
+</div>
+<p>Comparing design scenarios — UK distribution reduced total emissions by 49%, primarily by cutting distribution-related emissions by 93% relative to the original scenario.</p>
+<p>Because one durable Brompton bike (20-year lifespan) can replace roughly four dabbawala bikes (each with a 3–5 year lifespan), the proposed system results in an estimated <strong>+70% resource savings</strong> and <strong>+400% increase in product lifespan</strong> per bike in circulation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sustainabilitycompare.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison of four short-lifespan dabbawala bikes versus one long-lifespan Brompton bike</figcaption>
+</figure>
+</div>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>Beyond bicycle longevity, this system opens the door to a broader rebrand and expansion of the dabbawala network’s role in Mumbai’s delivery economy — positioning it to compete with app-based delivery services while preserving its cooperative, community-rooted structure.</p>
+<p><a href="index.html#projects-experience" class="back-link">Back to Portfolio</a></p>
 
 
 </section>
