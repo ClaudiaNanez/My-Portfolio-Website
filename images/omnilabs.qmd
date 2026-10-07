@@ -1,0 +1,53 @@
+## What is Omnilabs Research?
+
+Omnilabs Research is a medical technology company building rehabilitation tools for stroke survivors. This summer, I joined the team for an eight-week Professional Consolidation internship, working on the hardware behind Omnihuman — a remote fine motor rehabilitation experience.
+
+::: {.big-caption}
+![Testing the Glove in the Lab](images/omnilabslab.png){fig-align="center"}
+:::
+
+## The Background
+
+Omnilabs has spent the past few years developing Omnihuman, a system that gameifies tele-rehabilitation for stroke survivors. Early prototypes paired Apple Vision Pro headsets with a game-like interface, challenging users to complete tasks that rebuild fine motor control. To make that interface physical, the company has been building a hand glove that drives a user's finger flexion and extension during gameplay.
+
+By the time I joined, the glove relied on pneumatics — a system of tubes, valves, and bellows — to actuate movement. With Omnilabs aiming to manufacture 150 units in the coming months, the team's priority for the summer was clear: finalize a version of the glove ready for mass production.
+
+![Glove Iterations](images/omnilabsglove.png){fig-align="center"}
+
+## The Process
+
+I reported to the head of engineering and worked across three main threads over the eight weeks.
+
+**Pneumatic System Development.** The first version of the core relied on pneumatics — safe and flexible, but technically demanding. In my first few weeks, I helped fix issues in the early pneumatic cores: sourcing a new power supply and polyurethane tubing, researching whether the system needed one pump or five to actuate all five fingers, and writing the code that controlled flexion and extension of the glove. Once the new tubing and power supply were integrated, we tested the system with new fingertip extensions.
+
+**Fully Electric System Design.** After meeting with stakeholders, the team decided to move away from pneumatics entirely, toward an electric system driven by motors with magnetic encoders for position tracking. Motors trade some of the pneumatic system's physical flexibility for something more controllable and easier to source. We settled on 3-phase brushless motors — the kind more often found in drones — driven by motor drivers, powered by a 12V supply, and controlled by an Arduino ESP32-S3.
+
+![Wiring the Protoboard](images/omnilabsprotoboard.png){fig-align="center"}
+
+Once the new components arrived, I drew a full system diagram and tested the wiring in the lab. After confirming everything worked, I soldered components and JST connectors onto a protoboard, and we ran further tests to finalize glove iterations compatible with the new motor pulley system. From there, I designed a schematic to hand off to the company's third-party PCB developers — connecting the board, a multiplexer, the motor drivers, and the connectors — which my manager finalized by adding a buck converter.
+
+**Core Design.** In my final week, I helped redesign the core housing to fit the new electronics: the power supply, motors, PCB, tubing, and magnetic encoders. The design isn't final — it's missing some of the aesthetic polish that mass production will need — but it gave the team a working framework to build from.
+
+![Final Glove Prototype](images/omnilabsfinal.png){fig-align="center"}
+
+## Skill Development
+
+The complexity of the system pushed me in a few directions at once. On the mechanical side, I worked through a pneumatic valve system, figured out the right tubing for routing and containment, and prototyped full flexion and extension through several glove iterations. On the electrical side, I designed a system with no prior documentation to work from — researching motors and their components, prototyping wiring with jumper cables, programming magnetic encoders (down to the exact distance the magnets needed to sit from the motor and board), and solving I2C address conflicts with a multiplexer so multiple encoders could run off one Arduino. I also soldered and tested a protoboard and designed a PCB schematic for manufacturing. On the design side, I built on my Fusion 360 experience to develop housing for both the electronic and mechanical components, while also learning what the patent process actually requires of a design.
+
+## Reflection & Professional Growth
+
+Omnilabs operates out of Somerset House Makerversity, a community of over 300 founders and creators in London with shared wood shops, machine shops, and studio space. Working alongside that many engineers and creatives — and having access to their tools — shaped the summer as much as the project itself.
+
+Going in, I wasn't entirely sure what I'd be working on. My undergraduate engineering background meant I was familiar with most of the technical territory, but I'd never worked directly with pneumatics, and my robotics experience hadn't touched drone motors before. Both pushed me to learn quickly, including doing my own research into stroke rehabilitation to understand what the system actually needed to do.
+
+It was also my first time working inside an early-stage startup. Beyond the engineering, I got a much clearer picture of how a company like this actually moves — securing funding, applying for grants, joining startup incubators, and pitching a new idea to stakeholders who need convincing. By the end of the summer, I felt like part of the team as Omnilabs pushed its first product toward manufacturing.
+
+## The Numbers
+
+To see a more detailed breakdown of the internship, including the full technical scope, please view the supplementary report below.
+
+**Download the Report:** [Download PDF](files/omnilabsreport.pdf){.pdf-link target="_blank"}
+
+<iframe src="files/omnilabsreport.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 5px;"></iframe>
+
+[← Back to Portfolio](index.html#professional-experience)
